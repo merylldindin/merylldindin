@@ -4,7 +4,7 @@
 
 <div align="center">
   <a href="https://twitter.com/merylldindin" target="_blank">
-    <img src="https://img.shields.io/badge/twitter-1B1B1B.svg?&style=for-the-badge&logo=twitter&logoColor=white" alt="twitter"/>
+    <img src="https://img.shields.io/badge/twitter-1B1B1B.svg?&style=for-the-badge&logo=twitter&logoColor=white" alt="twitter" />
   </a>
 
   <a href="https://linkedin.com/in/merylldindin" target="_blank">

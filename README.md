@@ -102,6 +102,8 @@ Currently serving as **VP of Product & Engineering** at [Parallel Learning](http
 ![ty](https://img.shields.io/badge/ty-1B1B1B?style=flat-square&logo=astral&logoColor=white)
 ![Ruff](https://img.shields.io/badge/Ruff-1B1B1B?style=flat-square&logo=ruff&logoColor=white)
 ![Black](https://img.shields.io/badge/Black-1B1B1B?style=flat-square&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-1B1B1B?style=flat-square&logo=jupyter&logoColor=white)
+![Marimo](https://img.shields.io/badge/Marimo-1B1B1B?style=flat-square&logoColor=white)
 
 **Node Tooling**
 

@@ -89,9 +89,80 @@ Currently serving as **VP of Product & Engineering** at [Parallel Learning](http
 **Cloud & DevOps**
 
 ![GCP](https://img.shields.io/badge/GCP-1B1B1B?style=flat-square&logo=googlecloud&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-1B1B1B?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTYuNzYzIDE0LjUwMmMwIC4yNjcuMDMuNTIuMDg0Ljc1MS4wNjEuMjI4LjE0MS40NjcuMjUxLjcwMy4wNC4wNjcuMDU1LjEzLjA1NS4xODQgMCAuMDgtLjA1LjE1OS0uMTU0LjIzOGwtLjUwOS4zMzljLS4wNzMuMDUtLjE0NS4wNzMtLjIxMy4wNzNhLjI3Ny4yNzEgMCAwIDEtLjIwOS0uMTA4Yy0uMTAyLS4xMDgtLjE5LS4yMjMtLjI2OC0uMzQ5YTMuMzYxIDMuMzYxIDAgMCAxLS4yMzEtLjQzOGMtLjU4MS42ODctMS4zMTIgMS4wMzEtMi4xOTIgMS4wMzEtLjYyNyAwLTEuMTI3LS4xNzktMS40OTMtLjUzNy0uMzY2LS4zNTctLjU1MS0uODM1LS41NTEtMS40MzMgMC0uNjM0LjIyMy0xLjE0OC42NzYtMS41NC40NTItLjM5MiAxLjA1NS0uNTg4IDEuODE1LS41ODguMjUyIDAgLjUxMi4wMi43ODQuMDU2LjI3Mi4wMzcuNTUyLjA5NS44NDQuMTY4di0uNTQ2YzAtLjU2OC0uMTE5LS45NjctLjM1Mi0xLjE5OC0uMjM4LS4yMy0uNjQyLS4zNDItMS4yMTQtLjM0Mi0uMjYgMC0uNTI4LjAzMi0uODAzLjA5N2EzLjkxNCAzLjkxNCAwIDAgMC0uODMuMjk0Yy0uMTIyLjA2LS4yMTQuMDktLjI3MS4wOTctLjA3MyAwLS4xMS0uMDUzLS4xMS0uMTY0di0uMzk1YzAtLjA4NS4wMS0uMTQ5LjAzNy0uMTg4YS40MDUuNDA1IDAgMCAxIC4xMzctLjExOWMuMjY2LS4xMzcuNTgzLS4yNTMuOTUyLS4zNDkuMzctLjEwMi43NjMtLjE1IDEuMTgtLjE1LjkgMCAxLjU1OS4yMDQgMS45ODIuNjE0LjQyLjQxLjYzMSAxLjAzNS42MzEgMS44NzV2Mi40N3ptLTMuMDI3IDEuMTMzYy4yNDUgMCAuNS0uMDQ1Ljc2OC0uMTM0LjI2Ny0uMDkuNTA0LS4yNTYuNzA1LS40OWExLjI3IDEuMjcgMCAwIDAgLjI5NC0uNDU1Yy4wNTMtLjE3OC4wODQtLjM5Mi4wODQtLjY0MnYtLjMxYTYuMjE2IDYuMjE2IDAgMCAwLS42NzMtLjEyNyAzLjg5NiAzLjg5NiAwIDAgMC0uNjg4LS4wNmMtLjQ5NSAwLS44NTkuMDk2LTEuMTAyLjI5NC0uMjQyLjE5OS0uMzYuNDc3LS4zNi44NGEuOTcuOTcgMCAwIDAgLjI1Ni43MSA5NzEuOTU4IDk3MS45NTggMCAwIDAgLjcxNy4zNzR6bTUuOTk0LjczMWMtLjA5NCAwLS4xNTctLjAxNi0uMTk1LS4wNTctLjAzOS0uMDM2LS4wNzMtLjExNS0uMTAyLS4yMjhsLTEuMTM4LTMuNzQ1YTEuMzIgMS4zMiAwIDAgMS0uMDUtLjI3MWMwLS4xMS4wNTYtLjE2OC4xNjQtLjE2OGguNzljLjEgMCAuMTY4LjAxNi4yMDMuMDUzLjA0LjAzNi4wNjkuMTE1LjA5NC4yMjdsLjgxMyAzLjIwNS43NTUtMy4yMDVjLjAyMS0uMTE1LjA1LS4xOTEuMDkxLS4yMjdhLjM3Mi4zNzIgMCAwIDEgLjIwOS0uMDUzaC42NDVjLjEgMCAuMTY4LjAxNi4yMDkuMDUzLjA0LjAzNi4wNzMuMTE1LjA5MS4yMjdsLjc2NCAzLjI0Ni44NDItMy4yNDZjLjAyNS0uMTE1LjA1Ny0uMTkxLjA5Ny0uMjI3LjA0LS4wMzYuMTA2LS4wNTMuMjAyLS4wNTNoLjc1MWMuMTEgMCAuMTY4LjA1NC4xNjguMTY4YTEuMDI3IDEuMDI3IDAgMCAxLS4wMjUuMTQgMi4xNDggMi4xNDggMCAwIDEtLjAyOS4xMzFsLTEuMTY4IDMuNzQ1Yy0uMDI5LjExNS0uMDYyLjE5Mi0uMTAyLjIyOC0uMDQuMDM3LS4xMDIuMDU3LS4xOTEuMDU3aC0uNjk2Yy0uMS4wMDQtLjE2OC0uMDE2LS4yMDktLjA1LS4wNC0uMDM2LS4wNzMtLjExMS0uMDkxLS4yMjdsLS43NTEtMy4xMjUtLjc0NyAzLjEyMWMtLjAyMS4xMTYtLjA1NC4xOTItLjA5MS4yMjgtLjA0LjAzNy0uMTEuMDUzLS4yMDkuMDUzem05LjYwOC4xODNhMy45ODcgMy45ODcgMCAwIDEtMS4yNzktLjIwMmMtLjM4NS0uMTMtLjY4NS0uMjY3LS44ODUtLjQxYTQuMjc1IDQuMjc1IDAgMCAxLS4xMy0uMTE5Yy0uMDQ0LS4wNTQtLjA2NS0uMTEyLS4wNjUtLjE3NXYtLjQxYzAtLjExLjA0My0uMTY0LjEyMy0uMTY0YS4yOTQuMjk0IDAgMCAxIC4wOTQuMDEzYy4wMzIuMDEuMDc3LjAyOS4xMzQuMDU3LjI1Ni4xMTUuNTMzLjIwNi44MzQuMjc2LjMwNS4wNjkuNjAyLjEwNi44OTguMTA2LjQ3NyAwIC44NDgtLjA4NiAxLjEwOC0uMjYuMjYtLjE3MS4zOTQtLjQyNC4zOTQtLjc1MmEuNzE1LjcxNSAwIDAgMC0uMTk4LS41MjFjLS4xMzQtLjE0OC0uMzgxLS4yOC0uNzQ0LS4zOTRsLTEuMDY4LS4zMjdjLS41NDItLjE3Mi0uOTQyLS40MjctMS4xOTQtLjc1NmEyLjI0IDIuMjQgMCAwIDEtLjM4Mi0xLjI3OGMwLS4zNy4wNzgtLjY5NS4yMzctLjk3OC4xNi0uMjguMzcyLS41MjUuNjM0LS43MjQuMjYxLS4xOTkuNTYxLS4zNS44OTctLjQ1LjMzNy0uMTAzLjY5LS4xNTEgMS4wNTktLjE1MS4xODMgMCAuMzcyLjAxLjU2NC4wMzYuMTk1LjAyNS4zNzguMDYxLjU1Ni4xMDMuMTcxLjA0NS4zMzguMDk3LjQ5My4xNTYuMTU2LjA2LjI3Ny4xMTkuMzYxLjE3NGEuOC44IDAgMCAxIC4xNjguMTM3LjMyNS4zMjUgMCAwIDEgLjA1Mi4xNzl2LjM4YzAgLjExLS4wNDIuMTY4LS4xMjIuMTY4YS41NjIuNTYyIDAgMCAxLS4yMDYtLjA3NiAzLjQzOCAzLjQzOCAwIDAgMC0xLjQ1NC0uMzEzYy0uNDMyIDAtLjc3My4wNjctMS4wMTkuMjA2LS4yNDUuMTM3LS4zNy4zNDktLjM3LjYzOCAwIC4yMS4wNy4zODUuMjEzLjUyLjE0NS4xMzYuNDE0LjI3Mi44MS4zOTRsMS4wNDguMzIzYy41MzYuMTcxLjkyNC40MS4xNjEuNzE3LjIzOC4zMDYuMzUzLjY1NS4zNTMgMS4wNDQgMCAuMzc4LS4wNzguNzI0LS4yMzEgMS4wMzEtLjE1Ny4zMDctLjM3LjU3NS0uNjQ1Ljc5OC0uMjc0LjIyNy0uNjAxLjQtLjk4LjUyLS4zODkuMTItLjc5OC4xOC0xLjI0MS4xOHptMS41NTIgMy45OTRjLTMuMTkgMi4zNS03LjgxNiAzLjYtMTEuNzkzIDMuNi01LjU3OCAwLTEwLjYwMy0yLjA2NC0xNC40MDQtNS40OTYtLjI5OC0uMjctLjAzNC0uNjM4LjMyNy0uNDI3IDQuMTAzIDIuMzg5IDkuMTgxIDMuODI2IDE0LjQzMyAzLjgyNiAzLjUzOSAwIDcuNDMtLjczMiAxMS4wMS0yLjI1LjUzNi0uMjI3Ljk5LjM1OC40MjcuNzQ3em0xLjIyMi0xLjM5NmMtLjQxLS41MjUtMi43MDQtLjI0OC0zLjczNS0uMTI3LS4zMTQuMDQtLjM2LS4yMzUtLjA4LS40MzEgMS44My0xLjI4NyA0LjgzMS0uOTE3IDUuMTg0LS40ODYuMzUyLjQzNi0uMDk3IDMuNDUtMS44MDggNC42ODUtLjI2NC4xOTEtLjUxNS4wOTEtLjM5OC0uMTU2LjM4Ni0uOTY1IDEuMjU0LTMuMTMuODM3LTMuNjg1eiIvPjwvc3ZnPg==&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-1B1B1B?style=flat-square&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-1B1B1B?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-1B1B1B?style=flat-square&logo=githubactions&logoColor=white)
+
+## Tools
+
+**Engineering**
+
+![GitHub](https://img.shields.io/badge/GitHub-1B1B1B?style=flat-square&logo=github&logoColor=white)
+![Linear](https://img.shields.io/badge/Linear-1B1B1B?style=flat-square&logo=linear&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-1B1B1B?style=flat-square&logo=postman&logoColor=white)
+![Sentry](https://img.shields.io/badge/Sentry-1B1B1B?style=flat-square&logo=sentry&logoColor=white)
+![Datadog](https://img.shields.io/badge/Datadog-1B1B1B?style=flat-square&logo=datadog&logoColor=white)
+![LaunchDarkly](https://img.shields.io/badge/LaunchDarkly-1B1B1B?style=flat-square&logo=launchdarkly&logoColor=white)
+
+**Product & Design**
+
+![Figma](https://img.shields.io/badge/Figma-1B1B1B?style=flat-square&logo=figma&logoColor=white)
+![Webflow](https://img.shields.io/badge/Webflow-1B1B1B?style=flat-square&logo=webflow&logoColor=white)
+![Loom](https://img.shields.io/badge/Loom-1B1B1B?style=flat-square&logo=loom&logoColor=white)
+![Confluence](https://img.shields.io/badge/Confluence-1B1B1B?style=flat-square&logo=confluence&logoColor=white)
+![Airtable](https://img.shields.io/badge/Airtable-1B1B1B?style=flat-square&logo=airtable&logoColor=white)
+![Feathery](https://img.shields.io/badge/Feathery-1B1B1B?style=flat-square&logoColor=white)
+![Scribe](https://img.shields.io/badge/Scribe-1B1B1B?style=flat-square&logoColor=white)
+
+**Communication**
+
+![Slack](https://img.shields.io/badge/Slack-1B1B1B?style=flat-square&logo=slack&logoColor=white)
+![Zoom](https://img.shields.io/badge/Zoom-1B1B1B?style=flat-square&logo=zoom&logoColor=white)
+![Google Workspace](https://img.shields.io/badge/Google_Workspace-1B1B1B?style=flat-square&logo=google&logoColor=white)
+![Daily](https://img.shields.io/badge/Daily-1B1B1B?style=flat-square&logoColor=white)
+![Agora](https://img.shields.io/badge/Agora-1B1B1B?style=flat-square&logoColor=white)
+![Nylas](https://img.shields.io/badge/Nylas-1B1B1B?style=flat-square&logoColor=white)
+![Surfly](https://img.shields.io/badge/Surfly-1B1B1B?style=flat-square&logoColor=white)
+
+**Sales & Support**
+
+![Salesforce](https://img.shields.io/badge/Salesforce-1B1B1B?style=flat-square&logo=salesforce&logoColor=white)
+![HubSpot](https://img.shields.io/badge/HubSpot-1B1B1B?style=flat-square&logo=hubspot&logoColor=white)
+![Zendesk](https://img.shields.io/badge/Zendesk-1B1B1B?style=flat-square&logo=zendesk&logoColor=white)
+![Salesloft](https://img.shields.io/badge/Salesloft-1B1B1B?style=flat-square&logoColor=white)
+
+**People & HR**
+
+![Rippling](https://img.shields.io/badge/Rippling-1B1B1B?style=flat-square&logoColor=white)
+![Greenhouse](https://img.shields.io/badge/Greenhouse-1B1B1B?style=flat-square&logo=greenhouse&logoColor=white)
+![Lever](https://img.shields.io/badge/Lever-1B1B1B?style=flat-square&logo=lever&logoColor=white)
+![BambooHR](https://img.shields.io/badge/BambooHR-1B1B1B?style=flat-square&logoColor=white)
+![Checkr](https://img.shields.io/badge/Checkr-1B1B1B?style=flat-square&logoColor=white)
+![Allwhere](https://img.shields.io/badge/Allwhere-1B1B1B?style=flat-square&logoColor=white)
+
+**Finance & Legal**
+
+![QuickBooks](https://img.shields.io/badge/QuickBooks-1B1B1B?style=flat-square&logo=quickbooks&logoColor=white)
+![Ramp](https://img.shields.io/badge/Ramp-1B1B1B?style=flat-square&logoColor=white)
+![Wise](https://img.shields.io/badge/Wise-1B1B1B?style=flat-square&logo=wise&logoColor=white)
+![Ironclad](https://img.shields.io/badge/Ironclad-1B1B1B?style=flat-square&logoColor=white)
+
+**Security & IT**
+
+![1Password](https://img.shields.io/badge/1Password-1B1B1B?style=flat-square&logo=1password&logoColor=white)
+![Vanta](https://img.shields.io/badge/Vanta-1B1B1B?style=flat-square&logoColor=white)
+![SentinelOne](https://img.shields.io/badge/SentinelOne-1B1B1B?style=flat-square&logoColor=white)
+![Nordlayer](https://img.shields.io/badge/Nordlayer-1B1B1B?style=flat-square&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-1B1B1B?style=flat-square&logo=cloudflare&logoColor=white)
+![UptimeRobot](https://img.shields.io/badge/UptimeRobot-1B1B1B?style=flat-square&logo=uptimerobot&logoColor=white)
+![iKeepSafe](https://img.shields.io/badge/iKeepSafe-1B1B1B?style=flat-square&logoColor=white)
+![BreachLock](https://img.shields.io/badge/BreachLock-1B1B1B?style=flat-square&logoColor=white)
+
+**Data & Integration**
+
+![Fivetran](https://img.shields.io/badge/Fivetran-1B1B1B?style=flat-square&logoColor=white)
+![Zapier](https://img.shields.io/badge/Zapier-1B1B1B?style=flat-square&logo=zapier&logoColor=white)
+![Clever](https://img.shields.io/badge/Clever-1B1B1B?style=flat-square&logoColor=white)
 
 ## Compliance
 

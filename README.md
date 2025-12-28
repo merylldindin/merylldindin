@@ -93,6 +93,32 @@ Currently serving as **VP of Product & Engineering** at [Parallel Learning](http
 ![Docker](https://img.shields.io/badge/Docker-1B1B1B?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-1B1B1B?style=flat-square&logo=githubactions&logoColor=white)
 
+**Python Tooling**
+
+![uv](https://img.shields.io/badge/uv-1B1B1B?style=flat-square&logo=astral&logoColor=white)
+![Poetry](https://img.shields.io/badge/Poetry-1B1B1B?style=flat-square&logo=poetry&logoColor=white)
+![pre-commit](https://img.shields.io/badge/pre--commit-1B1B1B?style=flat-square&logo=precommit&logoColor=white)
+![mypy](https://img.shields.io/badge/mypy-1B1B1B?style=flat-square&logo=python&logoColor=white)
+![ty](https://img.shields.io/badge/ty-1B1B1B?style=flat-square&logo=astral&logoColor=white)
+![Ruff](https://img.shields.io/badge/Ruff-1B1B1B?style=flat-square&logo=ruff&logoColor=white)
+![Black](https://img.shields.io/badge/Black-1B1B1B?style=flat-square&logo=python&logoColor=white)
+
+**Node Tooling**
+
+![nvm](https://img.shields.io/badge/nvm-1B1B1B?style=flat-square&logo=nodedotjs&logoColor=white)
+![npm](https://img.shields.io/badge/npm-1B1B1B?style=flat-square&logo=npm&logoColor=white)
+![Yarn](https://img.shields.io/badge/Yarn-1B1B1B?style=flat-square&logo=yarn&logoColor=white)
+![pnpm](https://img.shields.io/badge/pnpm-1B1B1B?style=flat-square&logo=pnpm&logoColor=white)
+![Husky](https://img.shields.io/badge/Husky-1B1B1B?style=flat-square&logo=git&logoColor=white)
+
+**Testing**
+
+![pytest](https://img.shields.io/badge/pytest-1B1B1B?style=flat-square&logo=pytest&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-1B1B1B?style=flat-square&logo=jest&logoColor=white)
+![Cypress](https://img.shields.io/badge/Cypress-1B1B1B?style=flat-square&logo=cypress&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-1B1B1B?style=flat-square&logo=playwright&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-1B1B1B?style=flat-square&logo=selenium&logoColor=white)
+
 ## Tools
 
 **Engineering**

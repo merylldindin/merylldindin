@@ -25,24 +25,28 @@ Currently serving as **VP of Product & Engineering** at [Parallel Learning](http
 
 ## Ventures
 
-| Company                                                     | Role                        | Focus                                                                       |
-| ----------------------------------------------------------- | --------------------------- | --------------------------------------------------------------------------- |
-| **[Parallel Learning](https://parallellearning.com)**       | VP of Product & Engineering | Teletherapy platform empowering K-12 students with learning differences     |
-| **[Polygon](https://merylldindin.com/ventures/polygon/)**   | Co-Founder & CTO            | Remote diagnostics for ADHD, dyslexia & learning differences — raised $4.2M |
-| **[CalAster](https://merylldindin.com/ventures/calaster/)** | Co-Founder & CEO            | AI-powered mental health solutions for first responders                     |
+| Company                                                     | Description                                                                                |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| **[Parallel Learning](https://parallellearning.com)**       | VP of Product & Engineering — Teletherapy for K-12 students with learning differences      |
+| **[Polygon](https://merylldindin.com/ventures/polygon/)**   | Co-Founder & CTO — Remote ADHD & dyslexia diagnostics ($4.2M raised)                       |
+| **[CalAster](https://merylldindin.com/ventures/calaster/)** | Co-Founder & CEO — AI-powered mental health solutions for first responders                 |
 
 ## Research & Publications
 
-- **[Topological Data Analysis for Arrhythmia Detection](https://arxiv.org/abs/1906.05795)** — Novel deep learning approach using TDA for ECG classification (Springer, ICANN 2020)
-- **[NIST Computer Vision Challenge](https://cdn.merylldindin.com/documents/nist-challenge.pdf)** — Phase 2 winner & "Best Assessment Data" award at [NIST PSCR 2020](https://www.nist.gov/ctl/pscr/open-innovation-prize-challenges/past-prize-challenges/2020-enhancing-computer-vision)
-- **[Sleep Stage Classification with ML](https://medium.com/data-science/my-sweet-dreams-about-automatic-sleep-stage-classification-414128441728)** — EEG signal processing and automated sleep analysis
-- **[ToMATo Clustering](https://medium.com/data-science/tda-to-rule-them-all-tomato-clustering-878e03394a1)** — Topological data analysis for robust clustering
+| Publication                                                                                                          | Description                                       |
+| -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| **[TDA for Arrhythmia Detection](https://arxiv.org/abs/1906.05795)**                                                 | Deep learning with TDA for ECG (Springer, ICANN 2020) |
+| **[NIST Computer Vision Challenge](https://cdn.merylldindin.com/documents/nist-challenge.pdf)**                      | Phase 2 winner & "Best Assessment Data" (PSCR 2020)   |
+| **[Sleep Stage Classification](https://medium.com/data-science/my-sweet-dreams-about-automatic-sleep-stage-classification-414128441728)** | EEG signal processing for automated sleep analysis    |
+| **[ToMATo Clustering](https://medium.com/data-science/tda-to-rule-them-all-tomato-clustering-878e03394a1)**          | Topological data analysis for robust clustering       |
 
 ## Patents
 
-- **[US12346791B2](https://patents.google.com/patent/US12346791B2)** — Abnormality determination using persistent homology & autoencoders for ECG analysis
-- **[EP4075330A1](https://patents.google.com/patent/EP4075330A1)** — Real-time manufacturing monitoring via CNN-based video analysis
-- **[LU102785B1](https://patents.google.com/patent/LU102785B1)** — ML-driven simulation process for manufacturing systems
+| Patent                                                               | Description                                              |
+| -------------------------------------------------------------------- | -------------------------------------------------------- |
+| **[US12346791B2](https://patents.google.com/patent/US12346791B2)**   | Persistent homology & autoencoders for ECG analysis      |
+| **[EP4075330A1](https://patents.google.com/patent/EP4075330A1)**     | Real-time manufacturing monitoring via CNN video analysis |
+| **[LU102785B1](https://patents.google.com/patent/LU102785B1)**       | ML-driven simulation for manufacturing systems           |
 
 ## Tech Stack
 

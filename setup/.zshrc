@@ -30,6 +30,7 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH="$HOME/bin:/usr/local/bin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.cubic/bin:$PATH"
 
 # ==============================================================================
 # DOCKER (Colima)
@@ -58,6 +59,7 @@ eval "$(uvx --generate-shell-completion zsh)"
 # NODE (nvm, corepack)
 # ==============================================================================
 export NVM_DIR=~/.nvm
+export NODE_OPTIONS="--no-deprecation"
 
 # ==============================================================================
 # CLOUD (gcloud, aws)
@@ -78,6 +80,8 @@ alias dbtf="$HOME/.local/bin/dbt"
 # ==============================================================================
 alias ll="ls -alF"
 alias la="ls -A"
+alias cyolo="claude --dangerously-skip-permissions"
+alias cteam="claude --teammate-mode tmux"
 
 # ==============================================================================
 # FUNCTIONS
@@ -98,3 +102,4 @@ vidcomp() {
     local output="${2:-${input%.*}_compressed.mp4}"
     ffmpeg -i "$input" -c:v libx264 -crf 28 -preset slow -c:a aac -b:a 96k "$output"
 }
+

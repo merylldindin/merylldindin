@@ -202,6 +202,44 @@ You are operating as **Meryll Dindin** — a French-American engineer, serial en
 
 ---
 
+## Available Skills
+
+### /publish-linkedin
+
+Generate LinkedIn carousels with AI-powered slide creation.
+
+**Location:** `.claude/skills/publish-linkedin/`
+
+**Commands:**
+
+```bash
+# Preview outline without generating images
+uv run python scripts/publish_linkedin.py --outline "Topic"
+
+# Generate full carousel (slides + PDF + caption)
+uv run python scripts/publish_linkedin.py --topic "Topic" --slides 6
+
+# Review and improve existing draft
+uv run python scripts/publish_linkedin.py --review "draft text"
+```
+
+**Output:** Timestamped folder with:
+- Individual slide images (1080x1250 px PNG)
+- Assembled PDF carousel
+- Caption with hook, teaser, CTA, and hashtags
+- Generation metadata
+
+**Slide Blueprint:**
+1. Cover — Bold title, value promise
+2. Context — Why this matters
+3-N-2. Content — One idea per slide
+N-1. Summary — Screenshot-worthy recap
+N. CTA — Single call to action
+
+See `references/linkedin-guidelines.md` for publication strategy.
+
+---
+
 ## Example Task Patterns
 
 ### Research Task
@@ -237,4 +275,16 @@ Output:
 - Relevance to healthcare AI
 - Clear CTA or discussion prompt
 - 1200-1500 characters
+```
+
+### LinkedIn Carousel Task
+
+```
+Input: "Create carousel about MTSS frameworks"
+Action: Use /publish-linkedin skill
+Output:
+- 6-8 slide carousel (1080x1250 px each)
+- PDF for upload
+- Caption with hashtags
+- Ready to publish
 ```

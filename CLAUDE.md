@@ -240,6 +240,27 @@ N. CTA — Single call to action
 
 See `references/linkedin-guidelines.md` for publication strategy.
 
+### /publish-gamma
+
+Generate LinkedIn carousels via the Gamma MCP integration with AI-generated conceptual illustrations.
+
+**Location:** `.claude/skills/publish-gamma/`
+
+**Workflow:**
+1. Structure content into 6-8 slides (cover, context, content, summary, CTA)
+2. Generate via Gamma MCP (`social` format, `4x5` portrait, `sage` theme, `flux-1-pro` images)
+3. Download and review the exported PDF: check style consistency, flag drift, provide fix prompts for any inconsistent images
+4. Draft LinkedIn caption following brand guidelines
+5. Present deck URL + PDF download + caption + review findings with image fix prompts
+
+**Image style:** Minimalist hand-drawn scientific illustrations, monochrome ink with subtle sage green accents. No text in images, no realistic people. Per-slide conceptual metaphors (overflowing vessels, branching paths, tipping scales).
+
+**Output:** Gamma-hosted deck (editable) + PDF export + visual review with fix prompts + caption draft
+
+**Caption:** Same rules as /publish-linkedin. Always rework before publishing. No emdashes, emojis at emphasis points, 3-5 hashtags.
+
+See `.claude/skills/publish-gamma/SKILL.md` for full configuration.
+
 ---
 
 ## Example Task Patterns

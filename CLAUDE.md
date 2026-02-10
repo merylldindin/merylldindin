@@ -224,7 +224,7 @@ uv run python scripts/publish_linkedin.py --review "draft text"
 ```
 
 **Output:** Timestamped folder with:
-- Individual slide images (1080x1250 px PNG)
+- Individual slide images (1080x1350 px PNG)
 - Assembled PDF carousel
 - Caption with hook, teaser, CTA, and hashtags
 - Generation metadata
@@ -235,6 +235,8 @@ uv run python scripts/publish_linkedin.py --review "draft text"
 3-N-2. Content — One idea per slide
 N-1. Summary — Screenshot-worthy recap
 N. CTA — Single call to action
+
+**Caption:** Always rework `caption.md` after generation. Add emojis at emphasis points, expand with specific data/examples, clean up hashtags (single #, proper casing, 3-5 total), no emdashes. The AI draft is a starting point, not publish-ready.
 
 See `references/linkedin-guidelines.md` for publication strategy.
 

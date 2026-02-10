@@ -32,8 +32,9 @@ class CarouselSlide(BaseModel):
         default_factory=list,
         description="Bullet points or content lines (max 3-4 for readability)",
     )
-    image_prompt: str = Field(
-        description="Prompt for generating the slide image with Gemini"
+    image_prompt: str | None = Field(
+        default=None,
+        description="Prompt for generating the slide image with Gemini",
     )
     local_path: str | None = Field(
         default=None, description="Local path to generated slide image"

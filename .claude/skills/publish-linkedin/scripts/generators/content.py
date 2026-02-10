@@ -34,56 +34,55 @@ def generate_outline(topic: str, slide_count: int = 6) -> Carousel:
 
 Generate exactly {slide_count} slides following this blueprint:
 
-1. COVER (Slide 1): Bold, provocative title (5-8 words). Clear value promise. NO numbering.
+1. COVER (Slide 1): Bold hook title (5-8 words). Clear value promise. NO numbering.
 2. CONTEXT (Slide 2): Why this matters. Problem statement with SPECIFIC data/statistics. NO numbering.
 3. CONTENT (Slides 3 to {slide_count - 2}): One core idea per slide. MUST use consistent "0X TITLE" format.
    - Content slides are numbered 01, 02, 03... sequentially
    - Title format: "01 MAIN CONCEPT" (number + space + title in caps)
-   - Include specific numbers, percentages, or data points in bullet points
+   - Include specific numbers, percentages, or data points in content lines
 4. SUMMARY (Slide {slide_count - 1}): Condensed checklist recap. Screenshot-worthy. NO numbering.
-5. CTA (Slide {slide_count}): Single focused call to action. NO numbering. MINIMAL TEXT ONLY - just a headline and one short question. Do NOT repeat any data or findings from previous slides.
+5. CTA (Slide {slide_count}): Single focused call to action. NO numbering.
 
-CONTENT SLIDE NUMBERING (CRITICAL):
-- Slide 3 title format: "01 [CONCEPT]"
-- Slide 4 title format: "02 [CONCEPT]"
-- Slide 5 title format: "03 [CONCEPT]"
+TITLE STRUCTURE (CRITICAL - VISUAL CONSISTENCY):
+
+Non-numbered slides (cover, context, summary, CTA):
+- Titles MUST be exactly TWO WORDS in caps (e.g., "POLICY GAP", "KEY TAKEAWAYS", "YOUR MOVE")
+- Cover slide may have a longer subtitle below the two-word title
+- Two-word titles ensure they NEVER break across lines and look visually consistent
+
+Content slides (numbered 01, 02, 03...):
+- Title format: "01 TWO WORDS" or "01 THREE WORDS" (number + 2-3 word title in caps)
+- ALL content slide titles MUST have the SAME number of words (pick 2 or 3 and be consistent)
+- Example set: "01 HUMAN JUDGMENT", "02 MATURITY MODELS", "03 VENDOR PRIVACY", "04 THE GAP"
+- This ensures titles occupy the same visual space across all content slides
+
+CONTENT SLIDE NUMBERING:
+- Slide 3 title: "01 [2-3 WORD CONCEPT]"
+- Slide 4 title: "02 [2-3 WORD CONCEPT]"
+- Slide 5 title: "03 [2-3 WORD CONCEPT]"
 - And so on...
+
+SUMMARY vs CTA (CRITICAL - NO REPETITION):
+- The SUMMARY slide contains a concise recap of key findings (3-5 short points)
+- The CTA slide is COMPLETELY DIFFERENT: just a two-word bold title + ONE short question
+- The CTA must contain ZERO points, ZERO findings, ZERO data from the summary
+- Example CTA: Title "YOUR MOVE" + question "Is your policy operational or aspirational?"
+- The CTA slide should have at most 2 lines of text total
 
 DATA REQUIREMENTS:
 - Include specific statistics, percentages, or numbers wherever possible
 - Example: "35-50% growth in usage" not "significant growth"
-- Example: "280,000 academic talks analyzed" not "many talks analyzed"
 - Ground claims in concrete data points
 
 For each slide, provide:
-- title: Main headline (for content slides, MUST start with "01 ", "02 ", "03 " etc.)
-- content: 2-4 text lines with SPECIFIC data (for content slides) or empty for cover/CTA
-- image_prompt: Detailed prompt for generating a professional LinkedIn slide image
+- title: Main headline (TWO WORDS for non-numbered slides; "0X TWO-THREE WORDS" for content slides)
+- content: 2-4 text lines with SPECIFIC data (for content slides), 3-5 recap points (for summary), or empty/minimal for cover/CTA
 
 TEXT FORMATTING (CRITICAL):
 - NO bullet points, checkmarks, dashes, or any list markers
 - Write content as plain text lines separated by whitespace
-- Use generous line spacing between points
-
-IMAGE PROMPT REQUIREMENTS (CRITICAL):
-The image_prompt must explicitly describe:
-- Pure white background (#FFFFFF) - NO borders, frames, or edges
-- ALL content CENTERED in the middle of the slide with large margins
-- Black text only - NO colors, NO gray backgrounds
-- NO bullet points, checkmarks, or visual markers - plain text with spacing
-- Generous line spacing (1.8x) between text lines
-- For content slides: The number "01" (or 02, 03) in gray, followed by bold title
-- Title must be SAME SIZE across all content slides
-
-VISUAL ELEMENTS (each content slide should include ONE):
-- A large data callout: big number (72pt) with small label below (e.g., "48%" with "increase in 'delve' usage")
-- A simple trend line showing before/after change
-- A minimal arrow diagram showing a relationship
-- A timeline marking key dates
-
-Example: "Create a slide with '01' in gray, 'THE FINDING' in bold black (same size as other slides). Include a large '48%' as a visual focal point with 'usage increase' below it. Add 1-2 lines of context text. Pure white background, black elements only."
-
-NO DUPLICATED CONTENT - each text element appears exactly ONCE
+- Each content item should be a concise statement (under 80 characters preferred)
+- NO DUPLICATED CONTENT - each text element appears exactly ONCE across the entire carousel
 
 Also generate:
 - carousel_title: Overall title for the carousel
@@ -97,8 +96,7 @@ Respond in this exact JSON format:
             "number": 1,
             "slide_type": "cover|context|content|summary|cta",
             "title": "string",
-            "content": ["bullet1", "bullet2"],
-            "image_prompt": "string"
+            "content": ["line1", "line2"]
         }}
     ],
     "caption": {{
@@ -141,7 +139,6 @@ Make the content actionable, specific, and data-driven. Use Meryll Dindin's voic
             slide_type=SlideType(s["slide_type"]),
             title=s["title"],
             content=s.get("content", []),
-            image_prompt=s["image_prompt"],
         )
         for s in data["slides"]
     ]

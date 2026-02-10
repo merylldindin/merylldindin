@@ -120,10 +120,11 @@ def build_slide_prompt(slide: CarouselSlide) -> str:
     if slide.slide_type == SlideType.COVER:
         type_instruction = """
 This is a COVER SLIDE. Design requirements:
-- Title: BOLD sans-serif (NOT italic), 48-56pt, perfectly CENTERED
+- Title: TWO WORDS ONLY, BOLD sans-serif (NOT italic), 56-64pt, perfectly CENTERED
 - Title must be BLACK, BOLD, SANS-SERIF - same font family as all slides
+- Title must fit on ONE line - never break across lines
 - NO italic fonts anywhere
-- Subtitle (if any): REGULAR weight sans-serif, 24-28pt, below title
+- Subtitle (if any): REGULAR weight sans-serif, 24-28pt, below title with spacing
 - Maximum impact, minimum text
 - The title dominates the CENTER of the slide
 - Keep text away from edges (will be cropped)
@@ -132,8 +133,9 @@ This is a COVER SLIDE. Design requirements:
     elif slide.slide_type == SlideType.CONTEXT:
         type_instruction = """
 This is a CONTEXT SLIDE. Design requirements:
-- Title: BOLD sans-serif (NOT italic), 48-56pt, SAME style as content slide titles
-- Title must be BLACK, BOLD, SANS-SERIF - identical to "01 THE VOCABULARY SURGE" style
+- Title: TWO WORDS ONLY, BOLD sans-serif (NOT italic), 48-56pt, CENTERED at top
+- Title must fit on ONE line - never break across lines
+- Title must be BLACK, BOLD, SANS-SERIF
 - NO italic fonts anywhere
 - Body text: REGULAR weight sans-serif, 24-28pt
 - NO bullet points or markers - plain text only
@@ -147,17 +149,27 @@ This is a CONTEXT SLIDE. Design requirements:
     elif slide.slide_type == SlideType.CONTENT:
         type_instruction = f"""
 This is a CONTENT SLIDE. Design requirements:
-- NUMBER: "{slide.number - 2:02d}" in BOLD, 64-72pt, light gray (#AAAAAA), top-left of content area
-- TITLE: BOLD sans-serif, 48-56pt, black, next to number (SAME SIZE as other slides)
-- Layout: "{slide.number - 2:02d}  TITLE IN CAPS" on same line
+
+TITLE AREA (CRITICAL - MUST BE PIXEL-PERFECT ACROSS ALL CONTENT SLIDES):
+- The title area starts at EXACTLY Y=100px from the top edge
+- NUMBER: "{slide.number - 2:02d}" in BOLD, 64-72pt, light gray (#AAAAAA), at X=80px Y=100px
+- TITLE: BOLD sans-serif, 48pt EXACTLY (not 46, not 50 - exactly 48pt), black
+- Title positioned immediately right of number on the SAME LINE
+- Layout: "{slide.number - 2:02d}  TITLE" on one line at Y=100px
+- Title MUST NOT wrap to a second line - keep it to 2-3 words
+- The number+title combination must look IDENTICAL in position and size on every content slide
+
+BODY AREA:
+- Body text starts at EXACTLY Y=250px from top edge (same on all content slides)
 - Body text: REGULAR weight, 24-28pt, black
 - NO bullet points or markers - plain text only
 - Generous line spacing (1.8x) between lines
 
-VISUAL ELEMENTS (include one):
+VISUAL ELEMENTS (include one, positioned consistently):
 - A large data callout (e.g., "48%" in 72pt with small label below)
 - A simple trend line or chart (black lines, labeled)
-- A minimal diagram showing a relationship
+- A minimal icon or diagram
+- Visual element should be placed BELOW body text or integrated into layout
 
 - All content CENTERED within the middle 80% of the slide
 - Keep ALL content away from edges
@@ -167,13 +179,13 @@ VISUAL ELEMENTS (include one):
     elif slide.slide_type == SlideType.SUMMARY:
         type_instruction = """
 This is a SUMMARY SLIDE. Design requirements:
-- Title: BOLD sans-serif (NOT italic), 48-56pt, SAME style as content slide titles
-- Title must be BLACK, BOLD, SANS-SERIF - identical to "01 THE VOCABULARY SURGE" style
+- Title: TWO WORDS ONLY, BOLD sans-serif (NOT italic), 48-56pt, CENTERED at top
+- Title must fit on ONE line - never break across lines
+- Title must be BLACK, BOLD, SANS-SERIF
 - NO italic fonts anywhere
 - Body text: REGULAR weight sans-serif, 24-28pt
 - NO checkmarks, bullets, or any visual markers
 - Plain text only with generous vertical spacing
-- Use labels like "Dataset:" or "Trend:" in bold, followed by regular text
 - Generous line spacing (1.8x) between lines
 - All key points visible, properly spaced
 - Keep content in center 80% - edges will be cropped
@@ -182,17 +194,18 @@ This is a SUMMARY SLIDE. Design requirements:
     elif slide.slide_type == SlideType.CTA:
         type_instruction = """
 This is a CTA (Call to Action) SLIDE. Design requirements:
-- Main CTA: BOLD sans-serif (NOT italic), 48-56pt, CENTERED
-- Title must be BLACK, BOLD, SANS-SERIF - identical style to content slide titles
+- Title: TWO WORDS ONLY, BOLD sans-serif (NOT italic), 56-64pt, CENTERED
+- Title must fit on ONE line - never break across lines
+- Title must be BLACK, BOLD, SANS-SERIF
 - NO italic fonts anywhere
 
-CONTENT RULES (CRITICAL):
-- ONLY include: one headline + one short question or instruction
-- Maximum 2-3 lines of text total
-- DO NOT repeat any content from previous slides
-- DO NOT include statistics, data, or findings
-- DO NOT summarize the carousel
-- Keep it minimal: just the call to action
+CONTENT RULES (CRITICAL - THIS SLIDE MUST BE DIFFERENT FROM THE SUMMARY):
+- ONLY include: the two-word title + one short question below it
+- Maximum 2 lines of text total (title + question)
+- DO NOT repeat ANY content from the summary or other slides
+- DO NOT include statistics, data, findings, or recap points
+- DO NOT list multiple points - just ONE question
+- Keep it minimal: lots of whitespace
 
 - Simple design with lots of whitespace
 - Keep text in CENTER - away from all edges

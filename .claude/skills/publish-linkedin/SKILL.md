@@ -1,12 +1,12 @@
 ---
 name: publish-linkedin
 description: Generates LinkedIn carousels with AI-generated slides. Creates professional 1080x1350 portrait slides (4:5), assembles into PDF, and generates post captions with hashtags.
-allowed-tools: Read, Glob, Bash, WebFetch
+allowed-tools: Read, Edit, Write, Glob, Bash, WebFetch
 ---
 
 # LinkedIn Carousel Generator
 
-Generates LinkedIn carousel posts with consistent brand identity. Creates slides using Gemini image generation, assembles them into a PDF carousel, and generates post captions with hashtags.
+Generates LinkedIn carousel posts with consistent brand identity. Creates slides using Pillow text rendering + Gemini background/illustration generation, assembles them into a PDF carousel, and generates post captions with hashtags.
 
 ## When to Use
 
@@ -50,24 +50,35 @@ Each generation creates a timestamped folder:
 ```
 output/YYYYMMDD-HHMMSS/
 ├── metadata.json           # Generation details
-├── caption.md              # Post caption with hook + teaser + CTA + hashtags
+├── caption.md              # Post caption (ALWAYS rework manually, see below)
 ├── slides/
-│   ├── slide-01-cover.png
+│   ├── bg-01.png           # Gemini background+illustration per slide
+│   ├── slide-01-cover.png  # Final slide with text rendered on background
 │   ├── slide-02-context.png
-│   ├── slide-03-content.png
 │   └── ...
 └── carousel.pdf            # Final assembled PDF
 ```
 
+## Caption: Always Rework After Generation
+
+The AI-generated caption is a **starting draft only**. Always rewrite `caption.md` before publishing:
+
+- Add emojis sparingly at emphasis points (hook, paragraph ends, CTA)
+- No emdashes: use commas, periods, or colons instead
+- Structure: entry phrase, two paragraphs, closing question, hashtags
+- Bundle sentences together, minimize breaklines
+- Be more verbose than the draft: expand context, add specific data points and examples
+- Clean up hashtags: single `#`, proper casing, mix of broad and niche (3-5 total)
+- Consistent tone throughout
+
 ## Visual Identity
 
-Slides follow the portfolio's minimalist aesthetic:
+Slides use a hybrid rendering pipeline:
 
-- **Background**: Pure white (#FFFFFF)
-- **Colors**: Black and white only - no colors, gradients, or gray tones
-- **Text**: Bold, high-contrast, mobile-readable
-- **Layout**: Clean, generous whitespace, all content CENTERED
-- **Style**: Professional, modern, consistent
+- **Backgrounds**: Gemini-generated per slide (white base + light gray texture + embedded illustration)
+- **Text**: Pillow-rendered at 2x resolution with Helvetica Neue Medium, downscaled with LANCZOS for crisp typography
+- **Illustrations**: Fine black line art (1px stroke) embedded in background, positioned in lower 25-30% of slide
+- **Layout**: Clean, generous whitespace, centered titles with centered body text (except content slides which are left-aligned with numbered headers)
 - **No author branding**: Clean slides without name/handle/photo
 - **No borders**: Content extends to edges on white background
 - **Content slides**: Use "01 TITLE", "02 TITLE" numbering format
@@ -75,9 +86,10 @@ Slides follow the portfolio's minimalist aesthetic:
 ## Specifications
 
 - **Resolution**: 1080x1350 px (true 4:5 portrait)
+- **Render scale**: 2x internal, LANCZOS downscaled
+- **Font**: Helvetica Neue Medium (body), Helvetica Neue Bold (titles)
 - **Format**: PNG slides + PDF carousel
-- **Model**: Gemini 3 Pro Image
-- **Processing**: Center crop only (never resize/stretch)
+- **Image model**: Gemini 3 Pro Image Preview
+- **Text model**: Claude (outline + caption generation)
 
-See `references/visual-identity.md` for full style guidelines.
 See `references/linkedin-guidelines.md` for publication strategy.

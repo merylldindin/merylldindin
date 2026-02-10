@@ -21,9 +21,9 @@ from dotenv import load_dotenv
 load_dotenv(Path(__file__).parent.parent / ".env")
 
 from generators.content import generate_outline, review_draft
-from generators.slides import generate_slide_image
+from generators.illustrations import generate_slide_background
 from models.carousel import Carousel, CarouselMetadata, CarouselSlide
-from utils.optimize import optimize_slide_image
+from renderers import render_slide
 from utils.pdf import assemble_carousel_pdf
 
 SCRIPTS_DIR: Path = Path(__file__).parent
@@ -170,25 +170,24 @@ def run_generate(topic: str, slide_count: int = 6) -> None:
     print(f"  Title: {carousel.title}")
     print(f"  Slides: {carousel.get_slide_count()}")
 
-    # Step 2: Generate slide images (using previous slide as style reference)
-    print("\nStep 2: Generating slide images...")
+    # Step 2: Generate backgrounds and render slides
+    print("\nStep 2: Rendering slide images...")
     slide_paths: list[Path] = []
-    previous_slide_path: Path | None = None
 
     for slide in carousel.slides:
         slide_filename = f"slide-{slide.number:02d}-{slide.slide_type.value}.png"
         slide_path = slides_dir / slide_filename
 
-        # Pass previous slide as style reference for consistency
-        generate_slide_image(slide, slide_path, reference_image_path=previous_slide_path)
-        optimize_slide_image(slide_path)
+        # Generate background with embedded illustration
+        bg_path = slides_dir / f"bg-{slide.number:02d}.png"
+        generate_slide_background(slide, bg_path)
+
+        # Render text on top (2x + downscale for crisp typography)
+        render_slide(slide, slide_path, background_path=bg_path)
+
         slide_paths.append(slide_path)
-
-        # Update slide with local path
         slide.local_path = str(slide_path)
-
-        # Use this slide as reference for the next one
-        previous_slide_path = slide_path
+        print(f"  Rendered: {slide_filename}")
 
     # Step 3: Assemble PDF
     print("\nStep 3: Assembling PDF carousel...")

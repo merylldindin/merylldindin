@@ -1,0 +1,36 @@
+CLAUDE.md
+  6e22ec697869c5ec 256
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.17",
+  "base_commit_sha": "b000e5a0d8afe8399bb686d17400d67e106ca021",
+  "prompts": {
+    "31c344eb86bb12ca": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "eb1b3494-7f8b-4b16-b86f-136b95b22791",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Meryll Dindin <merylldin@gmail.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 6,
+      "overriden_lines": 0
+    },
+    "6e22ec697869c5ec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a58498aa-3b28-4496-8453-af5b0198460a",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Meryll Dindin <merylldin@gmail.com>",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 3,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    }
+  }
+}

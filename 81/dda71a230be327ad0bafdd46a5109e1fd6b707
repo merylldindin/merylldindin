@@ -1,0 +1,12 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "81dda71a230be327ad0bafdd46a5109e1fd6b707",
+  "prompts": {},
+  "humans": {
+    "h_7dea55e38e2815": {
+      "author": "Meryll Dindin"
+    }
+  }
+}

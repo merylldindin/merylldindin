@@ -200,7 +200,6 @@ Currently serving as **VP of Product & Engineering** at [Parallel Learning](http
 
 Building products in healthcare and education requires rigorous data protection standards.
 
-![HIPAA](https://img.shields.io/badge/HIPAA-1B1B1B?style=flat-square&logoColor=white)
 ![FERPA](https://img.shields.io/badge/FERPA-1B1B1B?style=flat-square&logoColor=white)
 ![COPPA](https://img.shields.io/badge/COPPA-1B1B1B?style=flat-square&logoColor=white)
 ![ISO 27001](https://img.shields.io/badge/ISO_27001-1B1B1B?style=flat-square&logoColor=white)

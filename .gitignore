@@ -1,0 +1,13 @@
+# Meta
+**/.DS_Store
+
+# Claude (whitelist)
+.claude/*
+!.claude/agents
+!.claude/references
+!.claude/rules
+!.claude/skills
+!.claude/settings.json
+
+# VS Code
+.vscode/

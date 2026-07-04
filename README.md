@@ -35,7 +35,7 @@ Currently serving as **VP of Product & Engineering** at [Parallel Learning](http
 
 | Publication                                                                                                          | Description                                       |
 | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| **[TDA for Arrhythmia Detection](https://arxiv.org/abs/1906.05795)**                                                 | Deep learning with TDA for ECG (Springer, ICANN 2020) |
+| **[TDA for Arrhythmia Detection](https://arxiv.org/abs/1906.05795)**                                                 | Deep learning with TDA for ECG (Springer, Canadian AI 2020) |
 | **[NIST Computer Vision Challenge](https://cdn.merylldindin.com/documents/nist-challenge.pdf)**                      | Phase 2 winner & "Best Assessment Data" (PSCR 2020)   |
 | **[Sleep Stage Classification](https://medium.com/data-science/my-sweet-dreams-about-automatic-sleep-stage-classification-414128441728)** | EEG signal processing for automated sleep analysis    |
 | **[ToMATo Clustering](https://medium.com/data-science/tda-to-rule-them-all-tomato-clustering-878e03394a1)**          | Topological data analysis for robust clustering       |

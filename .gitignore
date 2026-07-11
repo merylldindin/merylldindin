@@ -1,13 +1,17 @@
+# Secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Tooling
+.claude/*
+!.claude/agents/
+!.claude/references/
+!.claude/rules/
+!.claude/skills/
+!.claude/settings.json
+**/.vscode/*
+!**/.vscode/extensions.json
+
 # Meta
 **/.DS_Store
-
-# Claude (whitelist)
-.claude/*
-!.claude/agents
-!.claude/references
-!.claude/rules
-!.claude/skills
-!.claude/settings.json
-
-# VS Code
-.vscode/

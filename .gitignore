@@ -6,6 +6,7 @@
 # Tooling
 .claude/*
 !.claude/agents/
+!.claude/output-styles/
 !.claude/references/
 !.claude/rules/
 !.claude/skills/
